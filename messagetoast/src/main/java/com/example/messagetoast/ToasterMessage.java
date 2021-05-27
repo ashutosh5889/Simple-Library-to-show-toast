@@ -1,0 +1,15 @@
+package com.example.messagetoast;
+
+import android.content.Context;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+public class ToasterMessage {
+
+    public static void s(Context c, String message){
+
+        Toast.makeText(c,message,Toast.LENGTH_SHORT).show();
+
+    }
+}
