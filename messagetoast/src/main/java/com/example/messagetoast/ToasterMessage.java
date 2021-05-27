@@ -1,7 +1,6 @@
 package com.example.messagetoast;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
 import android.widget.Toast;
 
 public class ToasterMessage {
@@ -12,9 +11,9 @@ public class ToasterMessage {
 
     }
 
-    public int getImage() {
+    public static int getImage() {
 
-        return R.drawable.ic_launcher_background;
+      return R.drawable.ic_launcher_background;
 
     }
 }
